@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.module.titaniumx.artwork" name="Titanium X Artwork Engine (shared module)" version="0.4.1" provider-name="Titanium X">
+<addon id="script.module.titaniumx.artwork" name="Titanium X Artwork Engine (shared module)" version="0.4.2" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -12,7 +12,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="service.titaniumx.artwork" name="Titanium X Artwork Service" version="0.1.1" provider-name="Titanium X">
+<addon id="service.titaniumx.artwork" name="Titanium X Artwork Service" version="0.1.2" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -25,7 +25,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="script.titaniumx.artwork" name="Titanium X Artwork Downloader Pro" version="0.2.1" provider-name="Titanium X">
+<addon id="script.titaniumx.artwork" name="Titanium X Artwork Downloader Pro" version="0.2.2" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -44,22 +44,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="repository.titaniumx" name="Titanium X Repository" version="0.1.0" provider-name="Titanium X">
-    <extension point="xbmc.addon.repository" name="Titanium X Repository">
-        <dir minversion="19.0.0">
-            <info compressed="false">https://raw.githubusercontent.com/prestigelandscapegroupswfl/titanium-x-repo/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/prestigelandscapegroupswfl/titanium-x-repo/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/prestigelandscapegroupswfl/titanium-x-repo/master/zips</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Official Titanium X add-on repository</summary>
-        <description lang="en">Installs and updates all original Titanium X add-ons: Artwork Downloader Pro, the artwork service and shared engine, the catalog plugin, Motion and Character studios, and the Titanium X skin.</description>
-        <platform>all</platform>
-        <license>MIT</license>
-    </extension>
-</addon>
-<addon id="program.titaniumx.wizard" name="Titanium X Wizard" version="0.3.0" provider-name="Titanium X">
+<addon id="program.titaniumx.wizard" name="Titanium X Wizard" version="0.3.1" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -74,7 +59,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="program.titaniumx.buildcreator" name="Titanium X Build Creator Pro" version="0.2.0" provider-name="Titanium X">
+<addon id="program.titaniumx.buildcreator" name="Titanium X Build Creator Pro" version="0.2.1" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -102,7 +87,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="script.titaniumx.setup" name="Titanium X First-Run Setup" version="0.1.0" provider-name="Titanium X">
+<addon id="script.titaniumx.setup" name="Titanium X First-Run Setup" version="0.1.1" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -116,7 +101,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="script.titaniumx.themestudio" name="Titanium X Theme Studio" version="0.1.0" provider-name="Titanium X">
+<addon id="script.titaniumx.themestudio" name="Titanium X Theme Studio" version="0.1.1" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -130,7 +115,22 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="plugin.video.titaniumx" name="Titanium X (Prototype)" version="0.3.1" provider-name="Prestige">
+<addon id="repository.titaniumx" name="Titanium X Repository" version="0.1.0" provider-name="Titanium X">
+    <extension point="xbmc.addon.repository" name="Titanium X Repository">
+        <dir minversion="19.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/prestigelandscapegroupswfl/titanium-x-repo/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/prestigelandscapegroupswfl/titanium-x-repo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/prestigelandscapegroupswfl/titanium-x-repo/master/zips</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Official Titanium X add-on repository</summary>
+        <description lang="en">Installs and updates all original Titanium X add-ons: Artwork Downloader Pro, the artwork service and shared engine, the catalog plugin, Motion and Character studios, and the Titanium X skin.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
+</addon>
+<addon id="plugin.video.titaniumx" name="Titanium X (Prototype)" version="0.3.2" provider-name="Prestige">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -144,7 +144,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="skin.titaniumx" version="1.1.1" name="Titanium X">
+<addon id="skin.titaniumx" version="1.1.2" name="Titanium X">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -163,7 +163,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx.cinema" version="1.1.1" name="Titanium X Cinema">
+<addon id="skin.titaniumx.cinema" version="1.1.2" name="Titanium X Cinema">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -182,7 +182,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx.ultra" version="1.1.1" name="Titanium X Ultra">
+<addon id="skin.titaniumx.ultra" version="1.1.2" name="Titanium X Ultra">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -201,7 +201,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx.elite" version="1.1.1" name="Titanium X Elite">
+<addon id="skin.titaniumx.elite" version="1.1.2" name="Titanium X Elite">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -220,7 +220,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx" version="1.2.2" name="Titanium X">
+<addon id="skin.titaniumx" version="1.2.3" name="Titanium X">
   <requires>
     <import addon="xbmc.gui" version="5.18.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -239,7 +239,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx.cinema" version="1.2.2" name="Titanium X Cinema">
+<addon id="skin.titaniumx.cinema" version="1.2.3" name="Titanium X Cinema">
   <requires>
     <import addon="xbmc.gui" version="5.18.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -258,7 +258,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx.ultra" version="1.2.2" name="Titanium X Ultra">
+<addon id="skin.titaniumx.ultra" version="1.2.3" name="Titanium X Ultra">
   <requires>
     <import addon="xbmc.gui" version="5.18.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -277,7 +277,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx.elite" version="1.2.2" name="Titanium X Elite">
+<addon id="skin.titaniumx.elite" version="1.2.3" name="Titanium X Elite">
   <requires>
     <import addon="xbmc.gui" version="5.18.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />

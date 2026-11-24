@@ -60,3 +60,24 @@
 - Artwork Service 0.1.1: fully crash-armoured + uses the ONE shared ecosystem cache
 - Engine 0.4.1: shared_cache_dir() — plugin, Downloader Pro and service now share a single cache location
 - Catalog 0.3.1 / Downloader Pro 0.2.1: shared cache wiring
+
+## 2026-11-24 — Blank-screen ROOT-CAUSE fix (rig-verified)
+- ALL SKINS (Kodi 21 ed. 1.1.2 / Kodi 22 ed. 1.2.3): control defaults were
+  never loaded — Kodi only reads <default> entries via Includes.xml, so
+  Defaults.xml is now pulled in with <include file="Defaults.xml" /> and
+  Defaults.xml uses the <includes> root. This was the invisible-menu /
+  empty-dialog bug: every label without an explicit colour rendered
+  transparent. Also carries the earlier fixes: Startup.xml ReplaceWindow
+  onload, DialogConfirm core control IDs, Timers.xml root, settings
+  templates, modern animation syntax.
+- service.titaniumx.artwork 0.1.2 — full rewrite: nothing runs at import,
+  first-run auto-launch hook removed, any failure logs once and exits
+  silently (can never block or toast the interface again).
+- script.module.titaniumx.artwork 0.4.2, plugin.video.titaniumx 0.3.2,
+  script.titaniumx.artwork 0.2.2, program.titaniumx.wizard 0.3.1,
+  program.titaniumx.buildcreator 0.2.1, script.titaniumx.setup 0.1.1,
+  script.titaniumx.themestudio 0.1.1 — xbmc.translatePath (removed in
+  modern Kodi) replaced with xbmcvfs.translatePath throughout.
+- Verified in a local Kodi rig from the shipped zips: skin activates,
+  Home renders fully (menu, widgets, posters), dialogs render with
+  text/buttons, Settings renders, log clean, skin persists after restart.
