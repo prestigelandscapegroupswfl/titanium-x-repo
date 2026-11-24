@@ -91,3 +91,16 @@
 - Rig-verified: keyboard opens, all keys render, text entry lands in the
   edit field, rail buttons core-labelled (OK / Cancel / English QWERTY /
   IP address).
+
+## 2026-11-24 — Recovery path + launch fixes (skins 1.1.4 / 1.2.5, Wizard 0.3.2)
+- Emergency escape hatch: the power menu (Home > Power) is now fully
+  functional — every entry works, including "Wizard (recovery)", and the
+  Wizard gained "Emergency — switch back to Estuary skin" (confirm first;
+  Titanium X stays installed).
+- Fixed add-on launching from the skin: the Wizard and Build Creator Pro
+  are plugin-source add-ons and must be launched with RunPlugin — the
+  Tools dashboard, Skin Settings and media menu used RunScript, which
+  Kodi rejects for them ("Not executing non-existing script").
+- DialogSelect and DialogButtonMenu gained their missing default
+  controls, so focus lands in the list/menu on open (keyboard and
+  DialogConfirm already had theirs).

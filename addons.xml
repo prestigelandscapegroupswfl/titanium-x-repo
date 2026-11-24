@@ -44,7 +44,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="program.titaniumx.wizard" name="Titanium X Wizard" version="0.3.1" provider-name="Titanium X">
+<addon id="program.titaniumx.wizard" name="Titanium X Wizard" version="0.3.2" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -144,7 +144,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="skin.titaniumx" version="1.1.3" name="Titanium X">
+<addon id="skin.titaniumx" version="1.1.4" name="Titanium X">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -163,7 +163,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx.cinema" version="1.1.3" name="Titanium X Cinema">
+<addon id="skin.titaniumx.cinema" version="1.1.4" name="Titanium X Cinema">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -182,7 +182,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx.ultra" version="1.1.3" name="Titanium X Ultra">
+<addon id="skin.titaniumx.ultra" version="1.1.4" name="Titanium X Ultra">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -201,7 +201,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx.elite" version="1.1.3" name="Titanium X Elite">
+<addon id="skin.titaniumx.elite" version="1.1.4" name="Titanium X Elite">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -220,7 +220,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx" version="1.2.4" name="Titanium X">
+<addon id="skin.titaniumx" version="1.2.5" name="Titanium X">
   <requires>
     <import addon="xbmc.gui" version="5.18.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -239,7 +239,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx.cinema" version="1.2.4" name="Titanium X Cinema">
+<addon id="skin.titaniumx.cinema" version="1.2.5" name="Titanium X Cinema">
   <requires>
     <import addon="xbmc.gui" version="5.18.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -258,7 +258,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx.ultra" version="1.2.4" name="Titanium X Ultra">
+<addon id="skin.titaniumx.ultra" version="1.2.5" name="Titanium X Ultra">
   <requires>
     <import addon="xbmc.gui" version="5.18.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -277,7 +277,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx.elite" version="1.2.4" name="Titanium X Elite">
+<addon id="skin.titaniumx.elite" version="1.2.5" name="Titanium X Elite">
   <requires>
     <import addon="xbmc.gui" version="5.18.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
