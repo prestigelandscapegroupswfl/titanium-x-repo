@@ -49,3 +49,8 @@
 - Kodi picks the highest compatible edition per install: 1.2.0 on Kodi 22, 1.1.0 on Kodi 21
 
 ## 2026-11-24 — Kodi 22 audit pass: skin editions 1.2.1 add MyPVRProviders (Piers-only window); audit in docs/KODI22-AUDIT.md
+
+## 2026-11-24 — Dependency pass (verified against the official Kodi 22 repo)
+- Wizard 0.3.0: skin helper pack installer + Ultimate profile includes the verified Piers-repo helpers
+- Provider Manager 0.2.0: helper add-ons listed; Torus annotated (needs its own repo)
+- Verified ABSENT from Kodi 22 repo: script.skin.helper.service, script.module.metadatautils, script.artwork.downloader — Titanium X depends on none of them

@@ -59,7 +59,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="program.titaniumx.wizard" name="Titanium X Wizard" version="0.2.0" provider-name="Titanium X">
+<addon id="program.titaniumx.wizard" name="Titanium X Wizard" version="0.3.0" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -88,7 +88,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="script.titaniumx.providers" name="Titanium X Provider Manager" version="0.1.0" provider-name="Titanium X">
+<addon id="script.titaniumx.providers" name="Titanium X Provider Manager" version="0.2.0" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
