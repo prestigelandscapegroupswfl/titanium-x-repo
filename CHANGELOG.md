@@ -54,3 +54,9 @@
 - Wizard 0.3.0: skin helper pack installer + Ultimate profile includes the verified Piers-repo helpers
 - Provider Manager 0.2.0: helper add-ons listed; Torus annotated (needs its own repo)
 - Verified ABSENT from Kodi 22 repo: script.skin.helper.service, script.module.metadatautils, script.artwork.downloader — Titanium X depends on none of them
+
+## 2026-11-24 — Blank-screen fix pass (from Jay's Shield test)
+- DialogConfirm rebuilt in all skins (explicit button geometry, default control, dim layer): the keep-this-skin prompt rendered frame-only and timed out back to Estuary — Kodi 22 editions 1.2.2, Kodi 21 editions 1.1.1
+- Artwork Service 0.1.1: fully crash-armoured + uses the ONE shared ecosystem cache
+- Engine 0.4.1: shared_cache_dir() — plugin, Downloader Pro and service now share a single cache location
+- Catalog 0.3.1 / Downloader Pro 0.2.1: shared cache wiring
