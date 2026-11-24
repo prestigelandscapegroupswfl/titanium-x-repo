@@ -47,3 +47,5 @@
 
 ## 2026-11-24 — Kodi 22 Piers editions of all skins (1.2.0, xbmc.gui 5.18.0)
 - Kodi picks the highest compatible edition per install: 1.2.0 on Kodi 22, 1.1.0 on Kodi 21
+
+## 2026-11-24 — Kodi 22 audit pass: skin editions 1.2.1 add MyPVRProviders (Piers-only window); audit in docs/KODI22-AUDIT.md
