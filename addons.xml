@@ -74,7 +74,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="program.titaniumx.buildcreator" name="Titanium X Build Creator Pro" version="0.1.0" provider-name="Titanium X">
+<addon id="program.titaniumx.buildcreator" name="Titanium X Build Creator Pro" version="0.1.1" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -101,5 +101,24 @@
         <platform>all</platform>
         <license>MIT</license>
     </extension>
+</addon>
+<addon id="skin.titaniumx" version="1.0.0" name="Titanium X">
+  <requires>
+    <import addon="xbmc.gui" version="5.17.0" />
+    <import addon="script.module.titaniumx.artwork" version="0.3.0" />
+  </requires>
+  <extension point="xbmc.gui.skin" effectslowdown="0.75" debugging="false">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Titanium X flagship skin</summary>
+    <description lang="en">Titanium X flagship skin: four home layouts (Cinema, Netflix style, Disney style, Apple style), animated posters, transparent character artwork, clearlogos, keyart and rotating disc artwork, showcase/wall/wide views, four colour themes and three font sets. Integrates with the Titanium X Artwork Engine, Artwork Downloader Pro, Wizard and Build Creator Pro. Streaming-first: dynamic catalogs, no local library required.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 </addons>
