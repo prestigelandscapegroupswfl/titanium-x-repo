@@ -11,3 +11,6 @@
 - Alternatives API (fanart.tv + TMDb), artwork locks, hash duplicate detection
 - TVDb series enrichment bridge, bulk download-missing job (progress + cancel)
 - Downloader Pro dashboard: Artwork Manager with alternatives gallery
+
+## 2026-11-24 — Titanium X Wizard 0.1.0
+- Update check against the official repository, backup/restore (credential-safe), artwork cache cleaning

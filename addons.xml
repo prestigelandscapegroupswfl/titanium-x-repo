@@ -59,6 +59,21 @@
         <license>MIT</license>
     </extension>
 </addon>
+<addon id="program.titaniumx.wizard" name="Titanium X Wizard" version="0.1.0" provider-name="Titanium X">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.titaniumx.artwork" version="0.2.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Install, update, back up and maintain Titanium X</summary>
+        <description lang="en">The Titanium X Wizard: check for add-on updates from the official Titanium X repository, back up your Titanium X settings and artwork (with an option to exclude API credentials for shared backups), restore backups, and clean the artwork cache. Personal settings and credentials are never deleted without explicit confirmation, and credentials never appear in logs or backup manifests.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
+</addon>
 <addon id="plugin.video.titaniumx" name="Titanium X (Prototype)" version="0.2.0" provider-name="Prestige">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
