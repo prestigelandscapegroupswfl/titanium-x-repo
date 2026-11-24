@@ -24,3 +24,9 @@
 ## 2026-11-24 — Titanium X flagship skin 1.0.0 (Stage 1) + Build Creator Pro 0.1.1
 - NEW skin.titaniumx: original flagship skin — 4 home layouts (Cinema/Netflix/Disney/Apple styles), Showcase/Wall/Wide/List views, animated poster + character art + clearlogo + rotating disc support, 4 colour themes, 3 font sets, Titanium X tools dashboard, full dialog set (94 XML files, all validated)
 - Build Creator Pro 0.1.1: cancel-safe dialogs + self-diagnosing error display (any future error shows its own cause on screen)
+
+## 2026-11-24 — Skin family: Cinema, Ultra, Elite 1.0.0
+- skin.titaniumx.cinema: fullscreen fanart, animated posters, character overlays, large info panels (List/Showcase/Wall)
+- skin.titaniumx.ultra: streaming-style home, horizontal widget rows, List/Showcase/Wall/Wide
+- skin.titaniumx.elite: rotating discs, 4 colour themes, 3 fontsets, extensive artwork toggles (List/Showcase/Wall/Wide)
+- All validated: XML parses, texture references resolve, declared views defined
