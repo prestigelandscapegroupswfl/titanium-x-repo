@@ -44,3 +44,6 @@
 - NEW script.titaniumx.themestudio: apply the 12 colour themes live, create/save custom themes, import community themes from the Assets repository, export share packs, glass/glow/character/startup toggles, icon packs, Day/Night quick apply
 - All skins 1.1.0: named theme colours throughout (any theme x any layout), tintable focus frames with glow toggle, glass menu panels, navigation sounds, Neon icon pack included
 - Shared themes live in titanium-x-assets/themes (index.json + 12 XML)
+
+## 2026-11-24 — Kodi 22 Piers editions of all skins (1.2.0, xbmc.gui 5.18.0)
+- Kodi picks the highest compatible edition per install: 1.2.0 on Kodi 22, 1.1.0 on Kodi 21

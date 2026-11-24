@@ -220,4 +220,80 @@
     </assets>
   </extension>
 </addon>
+<addon id="skin.titaniumx" version="1.2.0" name="Titanium X">
+  <requires>
+    <import addon="xbmc.gui" version="5.18.0" />
+    <import addon="script.module.titaniumx.artwork" version="0.3.0" />
+  </requires>
+  <extension point="xbmc.gui.skin" effectslowdown="0.75" debugging="false">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Titanium X flagship skin (Kodi 22 Piers edition)</summary>
+    <description lang="en">Titanium X flagship skin for Kodi 22 Piers: four home layouts, Theme Studio colours, full catalog and artwork integration.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+<addon id="skin.titaniumx.cinema" version="1.2.0" name="Titanium X Cinema">
+  <requires>
+    <import addon="xbmc.gui" version="5.18.0" />
+    <import addon="script.module.titaniumx.artwork" version="0.3.0" />
+  </requires>
+  <extension point="xbmc.gui.skin" effectslowdown="0.75" debugging="false">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Cinematic fullscreen artwork experience</summary>
+    <description lang="en">Titanium X Cinema: fullscreen fanart backgrounds, animated posters, character artwork overlays and large movie information panels. Integrates with the Titanium X Artwork Engine, Artwork Downloader Pro, Wizard and Build Creator Pro.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+<addon id="skin.titaniumx.ultra" version="1.2.0" name="Titanium X Ultra">
+  <requires>
+    <import addon="xbmc.gui" version="5.18.0" />
+    <import addon="script.module.titaniumx.artwork" version="0.3.0" />
+  </requires>
+  <extension point="xbmc.gui.skin" effectslowdown="0.75" debugging="false">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Premium streaming-style interface</summary>
+    <description lang="en">Titanium X Ultra: a premium streaming-style home with horizontal widget rows, customizable menus, multiple poster layouts and dynamic artwork. Integrates with the Titanium X Artwork Engine, Artwork Downloader Pro, Wizard and Build Creator Pro.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+<addon id="skin.titaniumx.elite" version="1.2.0" name="Titanium X Elite">
+  <requires>
+    <import addon="xbmc.gui" version="5.18.0" />
+    <import addon="script.module.titaniumx.artwork" version="0.3.0" />
+  </requires>
+  <extension point="xbmc.gui.skin" effectslowdown="0.75" debugging="false">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Maximum customization: themes, fonts, discs</summary>
+    <description lang="en">Titanium X Elite: showcase and wall views, rotating disc artwork, four colour themes, multiple font sets and extensive artwork controls. Integrates with the Titanium X Artwork Engine, Artwork Downloader Pro, Wizard and Build Creator Pro.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
 </addons>
