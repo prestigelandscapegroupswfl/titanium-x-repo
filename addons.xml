@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.module.titaniumx.artwork" name="Titanium X Artwork Engine (shared module)" version="0.3.0" provider-name="Titanium X">
+<addon id="script.module.titaniumx.artwork" name="Titanium X Artwork Engine (shared module)" version="0.4.0" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -59,7 +59,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="program.titaniumx.wizard" name="Titanium X Wizard" version="0.1.0" provider-name="Titanium X">
+<addon id="program.titaniumx.wizard" name="Titanium X Wizard" version="0.2.0" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -74,7 +74,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="program.titaniumx.buildcreator" name="Titanium X Build Creator Pro" version="0.1.1" provider-name="Titanium X">
+<addon id="program.titaniumx.buildcreator" name="Titanium X Build Creator Pro" version="0.2.0" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -88,7 +88,35 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="plugin.video.titaniumx" name="Titanium X (Prototype)" version="0.2.0" provider-name="Prestige">
+<addon id="script.titaniumx.providers" name="Titanium X Provider Manager" version="0.1.0" provider-name="Titanium X">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Install, enable and configure playback providers</summary>
+        <description lang="en">The Titanium X Universal Provider Manager: see which compatible playback providers are installed, install more from their official repositories, enable or disable them, and open their settings — without leaving Titanium X. Playback always runs through the providers you choose and authorize.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
+</addon>
+<addon id="script.titaniumx.setup" name="Titanium X First-Run Setup" version="0.1.0" provider-name="Titanium X">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Welcome wizard for new Titanium X installs</summary>
+        <description lang="en">First-run setup: choose your home layout, artwork preferences and performance mode, add your free TMDb key, and open the Provider Manager to connect your authorized playback providers. Discovery catalogs work immediately, before any provider is configured.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
+</addon>
+<addon id="plugin.video.titaniumx" name="Titanium X (Prototype)" version="0.3.0" provider-name="Prestige">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -102,7 +130,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="skin.titaniumx" version="1.0.0" name="Titanium X">
+<addon id="skin.titaniumx" version="1.0.1" name="Titanium X">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -112,7 +140,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">The Titanium X flagship skin</summary>
-    <description lang="en">Titanium X flagship skin: four home layouts (Cinema, Netflix style, Disney style, Apple style), animated posters, transparent character artwork, clearlogos, keyart and rotating disc artwork, showcase/wall/wide views, four colour themes and three font sets. Integrates with the Titanium X Artwork Engine, Artwork Downloader Pro, Wizard and Build Creator Pro. Streaming-first: dynamic catalogs, no local library required.</description>
+    <description lang="en">Titanium X flagship skin: four home layouts, full catalog integration, animated artwork, themes and font sets.</description>
     <platform>all</platform>
     <license>MIT</license>
     <assets>
@@ -121,7 +149,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx.cinema" version="1.0.0" name="Titanium X Cinema">
+<addon id="skin.titaniumx.cinema" version="1.0.1" name="Titanium X Cinema">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -140,7 +168,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx.ultra" version="1.0.0" name="Titanium X Ultra">
+<addon id="skin.titaniumx.ultra" version="1.0.1" name="Titanium X Ultra">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />
@@ -159,7 +187,7 @@
     </assets>
   </extension>
 </addon>
-<addon id="skin.titaniumx.elite" version="1.0.0" name="Titanium X Elite">
+<addon id="skin.titaniumx.elite" version="1.0.1" name="Titanium X Elite">
   <requires>
     <import addon="xbmc.gui" version="5.17.0" />
     <import addon="script.module.titaniumx.artwork" version="0.3.0" />

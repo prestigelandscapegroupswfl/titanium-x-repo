@@ -30,3 +30,12 @@
 - skin.titaniumx.ultra: streaming-style home, horizontal widget rows, List/Showcase/Wall/Wide
 - skin.titaniumx.elite: rotating discs, 4 colour themes, 3 fontsets, extensive artwork toggles (List/Showcase/Wall/Wide)
 - All validated: XML parses, texture references resolve, declared views defined
+
+## 2026-11-24 — The Build update: catalogs, providers, one-click install, first-run setup
+- plugin.video.titaniumx 0.3.0: 20 catalog sections (Trending/Popular/New/Upcoming/Top Rated, TV, Genres, Decades, Anime, Documentaries, Kids, Collections) via TMDb discovery + keyless fallbacks; provider page per title (info, trailer, Torus/TMDb Helper playback, watchlist); local watchlist; Universal Search
+- NEW script.titaniumx.providers: Universal Provider Manager (install/enable/configure compatible providers)
+- NEW script.titaniumx.setup: first-run welcome wizard (layout, performance, artwork, TMDb key, providers); service launches it once
+- Wizard 0.2.0: one-click build installer with Lite/Balanced/Ultimate device profiles
+- Build Creator Pro 0.2.0: graphical add-on picker (multiselect over installed add-ons)
+- Engine 0.4.0: TMDb catalog client + watchlist storage
+- All skins 1.0.1: home widgets feed from the live Trending catalogs
