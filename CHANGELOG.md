@@ -39,3 +39,8 @@
 - Build Creator Pro 0.2.0: graphical add-on picker (multiselect over installed add-ons)
 - Engine 0.4.0: TMDb catalog client + watchlist storage
 - All skins 1.0.1: home widgets feed from the live Trending catalogs
+
+## 2026-11-24 — Theme Studio
+- NEW script.titaniumx.themestudio: apply the 12 colour themes live, create/save custom themes, import community themes from the Assets repository, export share packs, glass/glow/character/startup toggles, icon packs, Day/Night quick apply
+- All skins 1.1.0: named theme colours throughout (any theme x any layout), tintable focus frames with glow toggle, glass menu panels, navigation sounds, Neon icon pack included
+- Shared themes live in titanium-x-assets/themes (index.json + 12 XML)
