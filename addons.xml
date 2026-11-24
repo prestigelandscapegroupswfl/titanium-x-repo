@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="script.module.titaniumx.artwork" name="Titanium X Artwork Engine (shared module)" version="0.1.0" provider-name="Titanium X">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.module" library="resources/lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Shared Titanium X artwork engine</summary>
+        <description lang="en">The reusable Titanium X framework: artwork providers (TMDb, fanart.tv, Titanium X Assets repositories, Cinemeta, Motion Engine, disc synthesis), the persistent SQLite artwork database, enrichment, catalog execution (Golden Catalogue / Nuvio packs) and diagnostics. Used by Titanium X Artwork Downloader Pro, the background service and the Titanium X skin widgets. Original code.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
+</addon>
+<addon id="service.titaniumx.artwork" name="Titanium X Artwork Service" version="0.1.0" provider-name="Titanium X">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.titaniumx.artwork" version="0.1.0" />
+    </requires>
+    <extension point="xbmc.service" library="service.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Background artwork cache maintenance for Titanium X</summary>
+        <description lang="en">Keeps the Titanium X artwork cache healthy: enforces the configured storage cap with least-recently-used cleanup and checks the Titanium X Assets manifest for updates. The single background service for the whole Titanium X ecosystem — no duplicate services, no duplicate databases.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
+</addon>
+<addon id="script.titaniumx.artwork" name="Titanium X Artwork Downloader Pro" version="0.1.0" provider-name="Titanium X">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.titaniumx.artwork" version="0.1.0" />
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Next-generation artwork downloader for dynamic catalogs and libraries</summary>
+        <description lang="en">Titanium X Artwork Downloader Pro enriches movies and TV shows with up to 33 artwork categories — posters, keyart, character PNGs, disc art, animated artwork and more — without requiring a personal Kodi library. Works with dynamic streaming catalogs, TMDb Helper, Trakt, Nuvio and Golden Catalogue imports, and traditional libraries. Multiple providers, custom artwork repositories, Motion Artwork Studio, persistent SQLite cache. Original Titanium X code.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+<addon id="repository.titaniumx" name="Titanium X Repository" version="0.1.0" provider-name="Titanium X">
+    <extension point="xbmc.addon.repository" name="Titanium X Repository">
+        <dir minversion="19.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/prestigelandscapegroupswfl/titanium-x-repo/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/prestigelandscapegroupswfl/titanium-x-repo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/prestigelandscapegroupswfl/titanium-x-repo/master/zips</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Official Titanium X add-on repository</summary>
+        <description lang="en">Installs and updates all original Titanium X add-ons: Artwork Downloader Pro, the artwork service and shared engine, the catalog plugin, Motion and Character studios, and the Titanium X skin.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
+</addon>
+<addon id="plugin.video.titaniumx" name="Titanium X (Prototype)" version="0.2.0" provider-name="Prestige">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Titanium X artwork engine prototype</summary>
+        <description lang="en">Proof of concept: 20 popular movies served dynamically (no Kodi library), each enriched with character art, disc art, keyart, extra fanart, clearlogos and alternate posters, presented in a cinematic Showcase window. Artwork is retrieved by IMDb/TMDb ID from fanart.tv and TMDb and cached locally.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
+</addon>
+</addons>
