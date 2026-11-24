@@ -81,3 +81,13 @@
 - Verified in a local Kodi rig from the shipped zips: skin activates,
   Home renders fully (menu, widgets, posters), dialogs render with
   text/buttons, Settings renders, log clean, skin persists after restart.
+
+## 2026-11-24 — On-screen keyboard rebuilt (skins 1.1.3 / 1.2.4)
+- DialogKeyboard rebuilt on Kodi's core contract (was a 50-line stub with
+  wrong control IDs): full key grid 100-172, edit field 312, header 311,
+  Done/Cancel/language/IP rail 300/301/307/310, autocomplete panel 9010.
+  Function keys use text labels (#+&#61;, CAPS, SHIFT, SPACE, DEL) since
+  the bundled fonts carry no keyboard glyph icons.
+- Rig-verified: keyboard opens, all keys render, text entry lands in the
+  edit field, rail buttons core-labelled (OK / Cancel / English QWERTY /
+  IP address).
