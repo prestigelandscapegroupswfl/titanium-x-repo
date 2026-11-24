@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.module.titaniumx.artwork" name="Titanium X Artwork Engine (shared module)" version="0.2.0" provider-name="Titanium X">
+<addon id="script.module.titaniumx.artwork" name="Titanium X Artwork Engine (shared module)" version="0.3.0" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -15,7 +15,7 @@
 <addon id="service.titaniumx.artwork" name="Titanium X Artwork Service" version="0.1.0" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.titaniumx.artwork" version="0.2.0" />
+        <import addon="script.module.titaniumx.artwork" version="0.3.0" />
     </requires>
     <extension point="xbmc.service" library="service.py" />
     <extension point="xbmc.addon.metadata">
@@ -28,7 +28,7 @@
 <addon id="script.titaniumx.artwork" name="Titanium X Artwork Downloader Pro" version="0.2.0" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.titaniumx.artwork" version="0.2.0" />
+        <import addon="script.module.titaniumx.artwork" version="0.3.0" />
     </requires>
     <extension point="xbmc.python.script" library="default.py">
         <provides>executable</provides>
@@ -62,7 +62,7 @@
 <addon id="program.titaniumx.wizard" name="Titanium X Wizard" version="0.1.0" provider-name="Titanium X">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
-        <import addon="script.module.titaniumx.artwork" version="0.2.0" />
+        <import addon="script.module.titaniumx.artwork" version="0.3.0" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
