@@ -14,3 +14,6 @@
 
 ## 2026-11-24 — Titanium X Wizard 0.1.0
 - Update check against the official repository, backup/restore (credential-safe), artwork cache cleaning
+
+## 2026-11-24 — Build Creator Pro 0.1.0
+- Build manifest assembly + credential-safe export (core unit-tested), initial UI

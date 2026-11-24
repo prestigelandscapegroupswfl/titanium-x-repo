@@ -74,6 +74,20 @@
         <license>MIT</license>
     </extension>
 </addon>
+<addon id="program.titaniumx.buildcreator" name="Titanium X Build Creator Pro" version="0.1.0" provider-name="Titanium X">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Assemble and export your own Titanium X builds</summary>
+        <description lang="en">Build Creator Pro assembles a Titanium X build definition (base skin, add-ons, collections, artwork packs, theme, performance preset, default views) into a versioned build manifest and exports an installable build ZIP. Credentials are structurally excluded: the manifest has no settings fields and the exporter refuses credential-like files.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
+</addon>
 <addon id="plugin.video.titaniumx" name="Titanium X (Prototype)" version="0.2.0" provider-name="Prestige">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
